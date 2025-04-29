@@ -1,12 +1,52 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A password generator web application built with React and Tailwind CSS. Create strong, secure passwords with customizable options.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Password Strength Indicator**: Visual feedback on password strength
+- **Copy to Clipboard**: One-click copy functionality with visual confirmation
+- **Customizable Options**:
+  - Adjustable password length (6-100 characters)
+  - Include numbers
+  - Include special characters
+- **Responsive Design**: Works beautifully on all devices
+- **Local Processing**: All passwords are generated locally, never transmitted or stored
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+[View Live Demo](https://your-demo-link.netlify.app)
+
+## Technologies Used
+
+- React.js
+- Tailwind CSS
+- Vite
+
+
+## Usage
+
+1. Adjust the password length using the slider
+2. Toggle options to include numbers and/or special characters
+3. Click "Generate New Password" to create a new password
+4. Click the "Copy" button to copy the password to clipboard
+
+## Security
+
+This application generates passwords locally in your browser. No passwords are sent to any server or stored in any database. The application uses cryptographically secure random number generation provided by your browser.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
