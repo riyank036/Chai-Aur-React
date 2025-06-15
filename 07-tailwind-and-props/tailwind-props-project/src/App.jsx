@@ -1,7 +1,7 @@
 import Card from "./componenst/card"
-function App() {
+export default function App() {
 
-  return (
+   return (
     <>
       <h1 className="bg-blue-500 text-orange-600 p-4 mb-3">TailwindCss </h1>
 
@@ -15,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+ 
